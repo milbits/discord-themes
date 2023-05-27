@@ -1,0 +1,61 @@
+/* Emojis tab*/
+.contentWrapper-3vHNP2,.wrapper-1NNaWG{
+  background: var(--bg-overlay-3)
+}
+.wrapper-22rqw6{
+  background: var(--bg-overlay-1) !important
+}
+.inspector-DFKXwB{
+  background: var(--bg-overlay-2)
+}
+.container-1SX9VC{
+  background: var(--bg-overlay-4)
+}
+.emojiItem-277VFM.emojiItemSelected-2Lg50V{
+  background: var(--bg-overlay-hover)
+}
+.categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategorySelected-2YeRUu:hover{
+  background: var(--bg-overlay-4)
+}
+.categoryItemDefaultCategory-3haEDq:hover{
+  background: var(--bg-overlay-2)
+}
+.navButtonActive-1EqC5l{
+  background: var(--bg-overlay-selected)
+}
+/* Quick switcher*/
+.quickswitcher-pKcM9U{
+  background: var(--bg-overlay-chat)
+}
+.scroller-2qwVWY{
+  background: ￼transparent;
+}
+.input-3r5zZY{
+  background: var(--bg-overlay-4)
+}
+.container-qBnZJg{
+  transform: none !important
+}
+
+/* Message button*/
+.wrapper-2vIMkT{
+  background: var(--bg-overlay-3)
+}
+
+
+
+.tabBody-2dgbAs{
+	transform: unset
+}
+.menu-2TXYjN{
+	background: var(--bg-overlay-1);
+}
+.button-1zW0-r{
+	background: var(--bg-overlay-2);
+}
+.button-1zW0-r:hover,.prompt-1sE27N{
+	background: var(--bg-overlay-3);
+}
+.selected-KQBgNS{
+	background: var(--bg-overlay-2);
+}
