@@ -28,7 +28,7 @@
   background: var(--bg-overlay-chat)
 }
 .scroller-2qwVWY{
-  background: ￼transparent;
+  background: transparent;
 }
 .input-3r5zZY{
   background: var(--bg-overlay-4)
@@ -58,4 +58,21 @@
 }
 .selected-KQBgNS{
 	background: var(--bg-overlay-2);
+}
+
+.theme-dark .autocomplete-3NRXG8{
+	background: var(--bg-overlay-3)
+}
+.clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0{
+	background: var(--bg-overlay-4) !important
+}
+
+.root-1CAIjD{
+	background: var(--bg-overlay-3)
+}
+.root-1CAIjD[style*="scale(1)"]{
+	transform: none !important
+}
+.lookFilled-GPyucw.select-Zz0IcO{
+	background: var(--bg-overlay-4)
 }
