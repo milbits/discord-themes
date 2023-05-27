@@ -142,3 +142,11 @@
 .menu-2TXYjN{
 	background: var(--bg-overlay-1);
 }
+
+/*Settings*/
+.contentRegionScroller-2_GT_N{
+	background: var(--bg-overlay-2)
+}
+.sidebarRegionScroller-FXiQOh{
+	background: var(--bg-overlay-3)
+}
