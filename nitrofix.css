@@ -60,13 +60,14 @@
 	background: var(--bg-overlay-2);
 }
 
+/*Autocomplete*/
 .theme-dark .autocomplete-3NRXG8{
 	background: var(--bg-overlay-3)
 }
 .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0{
 	background: var(--bg-overlay-4) !important
 }
-
+/*Modals*/
 .root-1CAIjD{
 	background: var(--bg-overlay-3)
 }
@@ -75,4 +76,69 @@
 }
 .lookFilled-GPyucw.select-Zz0IcO{
 	background: var(--bg-overlay-4)
+}
+
+/*Scrollbars*/
+.theme-dark .auto-2TJ1RH::-webkit-scrollbar-track {
+    background-size: 200vh;
+    background-image: linear-gradient(rgb(var(--bg-overlay-color)/.4),rgb(var(--bg-overlay-color)/.4)),var(--custom-theme-background);
+}
+.theme-dark .auto-2TJ1RH::-webkit-scrollbar-thumb,
+.theme-dark .thin-RnSY0a::-webkit-scrollbar-thumb {
+    background-size: 200vh;
+    background-image: linear-gradient(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4)),rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4))),var(--custom-theme-background);
+}
+.theme-light .auto-2TJ1RH::-webkit-scrollbar-track {
+    background-size: 200vh;
+    background-image: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)),rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2))),var(--custom-theme-background);
+}
+.theme-light .auto-2TJ1RH::-webkit-scrollbar-thumb,
+.theme-light .thin-RnSY0a::-webkit-scrollbar-thumb {
+    background-size: 100vh;
+    background-image: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6)),rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3));
+}
+
+/*Friendlist buttons*/
+.actionButton-3-B2x-{
+	background: var(--bg-overlay-4);
+}
+.actionButton-3-B2x-:active{
+	background: var(--bg-overlay-hover);
+}
+
+/* Tabs*/
+.themed-qqoYp3.item-2GWPIy:not(.addFriend-emTWY1,.tabBarItem-30Te4-):hover{
+	background: var(--bg-overlay-hover)
+}
+.themed-qqoYp3.item-2GWPIy:not(.addFriend-emTWY1,.tabBarItem-30Te4-):active{
+	background: var(--bg-overlay-active)
+}
+.themed-qqoYp3.selected-1sf9UK.item-2GWPIy:not(.addFriend-emTWY1,.tabBarItem-30Te4-){
+	background: var(--bg-overlay-selected)
+}
+.peopleListItem-u6dGxF:hover{
+	background: var(--bg-overlay-3)
+}
+
+/*Member list*/
+ .layout-1qmrhw:hover{
+	 background: var(--bg-overlay-3)
+ }
+ .layout-1qmrhw:active{
+	 background: var(--bg-overlay-4)
+ }
+.selected-1-Z6gm .layout-1qmrhw{
+	background: var(--bg-overlay-5)
+}
+/*Active Now*/
+.wrapper-2RrXDg{
+	background: var(--bg-overlay-3);
+	border: none
+}
+.wrapper-2RrXDg:hover{
+	background: var(--bg-overlay-1);
+}
+/*Context Menus*/
+.menu-2TXYjN{
+	background: var(--bg-overlay-1);
 }
