@@ -108,6 +108,10 @@
 .lookFilled-GPyucw.select-Zz0IcO {
 	background: var(--bg-overlay-4);
 }
+.footer-IubaaS,.footer-VCsJQY {
+	background: var(--bg-overlay-2);
+	box-shadow: none !important
+}
 /*events tab*/
 .card-8UsK4b {
 	background: var(--bg-overlay-2);
@@ -123,9 +127,7 @@
 .footerSeparator-3U8YsT {
 	box-shadow: none !important;
 }
-.footer-IubaaS {
-	background: var(--bg-overlay-2);
-}
+
 
 /*Scrollbars*/
 .theme-dark .auto-2TJ1RH::-webkit-scrollbar-track {
@@ -203,8 +205,27 @@
 
 /*Settings*/
 .contentRegionScroller-2_GT_N {
-	background: var(--bg-overlay-2);
+	background: var(--bg-overlay-chat);
 }
 .sidebarRegionScroller-FXiQOh {
 	background: var(--bg-overlay-3);
+}
+
+/*user panel buttons*/
+.button-12Fmur:hover{
+	background:var(--bg-overlay-3)
+}
+
+
+.tooltipPrimary-2466a2{
+	background: var(--bg-overlay-1);
+	transform: none !important
+}
+/*file upload*/
+.upload-vLbqu-{
+	background:var(--bg-overlay-2)
+}
+.actionBar-1ozugS{
+	top: -25px;
+	right: -25px
 }
