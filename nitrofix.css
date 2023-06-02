@@ -1,3 +1,8 @@
+:root{
+	--bg-overlay-opacity-tertiary: 0.9;
+	--bg-overlay-tertiary: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-tertiary)),rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-tertiary))) fixed 0 0/cover,var(--custom-theme-background) fixed 0 0/cover
+}
+
 /**Emoji picker*/
 .contentWrapper-3vHNP2,
 .wrapper-1NNaWG,
@@ -197,7 +202,8 @@
 
 /*Context Menus*/
 .menu-2TXYjN {
-	background: var(--bg-overlay-1);
+	background: var(--bg-overlay-tertiary);
+	transform: none
 }
 .button-1zW0-r:hover {
 	background: var(--bg-overlay-3);
@@ -218,8 +224,11 @@
 
 
 .tooltipPrimary-2466a2{
-	background: var(--bg-overlay-1);
+	background: var(--bg-overlay-tertiary);
 	transform: none !important
+}
+.tooltip-33Jwqe{
+	will-change: unset
 }
 /*file upload*/
 .upload-vLbqu-{
@@ -229,7 +238,17 @@
 	top: -25px;
 	right: -25px
 }
-
+/*embeds*/
 .embedFull-1HGV2S{
+	background: var(--bg-overlay-3)
+}
+/*search*/
+.searchHeader-1r_ZSh{
+	background: var(--bg-overlay-1) !important
+}
+.searchResultsWrap-5RVOkx{
+	background: var(--bg-overlay-chat)
+}
+.searchResult-O9NDji{
 	background: var(--bg-overlay-3)
 }
