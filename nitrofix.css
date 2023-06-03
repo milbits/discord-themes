@@ -1,6 +1,10 @@
 :root{
-	--bg-overlay-opacity-tertiary: 0.9;
-	--bg-overlay-tertiary: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-tertiary)),rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-tertiary))) fixed 0 0/cover,var(--custom-theme-background) fixed 0 0/cover
+	--bg-overlay-opacity-tertiary: 0.89;
+	--bg-overlay-tertiary: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-tertiary)),rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-tertiary))) fixed 0 0/cover,var(--custom-theme-background) fixed 0 0/cover;
+--bg-overlay-opacity-secondary: 0.75;
+	--bg-overlay-secondary: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-secondary)),rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-secondary))) fixed 0 0/cover,var(--custom-theme-background) fixed 0 0/cover;
+--bg-overlay-opacity-primary: 0.65;
+	--bg-overlay-primary: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-primary)),rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-primary))) fixed 0 0/cover,var(--custom-theme-background) fixed 0 0/cover
 }
 
 /**Emoji picker*/
@@ -71,10 +75,7 @@
 }
 
 /*channels and roles > customization*/
-.menu-2TXYjN {
-	background: var(--bg-overlay-1);
-}
-.button-1zW0-r,
+
 .selected-KQBgNS {
 	background: var(--bg-overlay-2);
 }
@@ -201,13 +202,20 @@
 }
 
 /*Context Menus*/
+.didRender-2dwLEv{
+	transform: none !important
+}
 .menu-2TXYjN {
 	background: var(--bg-overlay-tertiary);
 	transform: none
 }
-.button-1zW0-r:hover {
-	background: var(--bg-overlay-3);
+.button-1zW0-r{
+	background: var(--bg-overlay-1)
 }
+.button-1zW0-r:hover {
+	background: var(--bg-overlay-2);
+}
+
 
 /*Settings*/
 .contentRegionScroller-2_GT_N {
@@ -251,4 +259,13 @@
 }
 .searchResult-O9NDji{
 	background: var(--bg-overlay-3)
+}
+
+
+.emojiSection-3QtaWO{
+	background: var(--bg-overlay-tertiary);
+	border-radius: 1px
+}
+.guildSection-2Zyzy8{
+	background: var(--bg-overlay-secondary)
 }
