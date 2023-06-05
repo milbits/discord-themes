@@ -164,7 +164,7 @@
 	background: var(--bg-overlay-hover);
 }
 
-/* Tabs*/
+/*Tabs*/
 .themed-qqoYp3.item-2GWPIy:not(.addFriend-emTWY1, .tabBarItem-30Te4-):hover {
 	background: var(--bg-overlay-hover);
 }
@@ -218,11 +218,44 @@
 
 
 /*Settings*/
-.contentRegionScroller-2_GT_N {
+.contentRegionScroller-2_GT_N,.titleContainer-3fPic2,.header-JUTO-g,.contentRegion-3HkfJJ{
 	background: var(--bg-overlay-chat);
 }
 .sidebarRegionScroller-FXiQOh {
 	background: var(--bg-overlay-3);
+}
+/*audit log*/
+.header-2pgFQm{
+		background: var(--bg-overlay-3)
+
+}
+.headerExpanded-1-zwDr{
+	background: var(--bg-overlay-primary)
+}
+.auditLog-1NVAY0{
+	border: none !important;
+}
+.changeDetails-1kMZqI{
+	background: var(--bg-overlay-secondary)
+}
+
+
+/*Roles tab buttons*/
+.primary-38Hs-h:hover:not(.disabled-184-il), .secondary-2bzKEX{
+	background: var(--bg-overlay-primary)
+}
+/*Default permissions tab button*/
+.container-3EtAkD{
+	background: var(--bg-overlay-secondary)
+}
+.container-3EtAkD:hover{
+	background: var(--bg-overlay-3)
+}
+.container-3EtAkD:active{
+	background: var(--bg-overlay-primary)
+}
+.icon-2DGsye{
+	background: var(--bg-overlay-4)
 }
 
 /*user panel buttons*/
@@ -230,7 +263,7 @@
 	background:var(--bg-overlay-3)
 }
 
-
+/*tooltips*/
 .tooltipPrimary-2466a2{
 	background: var(--bg-overlay-tertiary);
 	transform: none !important
@@ -261,11 +294,17 @@
 	background: var(--bg-overlay-3)
 }
 
-
+/*emoji info thing*/
 .emojiSection-3QtaWO{
-	background: var(--bg-overlay-tertiary);
+	background: var(--bg-overlay-primary);
 	border-radius: 1px
 }
 .guildSection-2Zyzy8{
 	background: var(--bg-overlay-secondary)
 }
+/*loading popout*/
+.loadingPopout-1tyQMM{
+	background: var(--bg-overlay-4)
+}
+
+
