@@ -134,6 +134,17 @@
 	box-shadow: none !important;
 }
 
+/** revenge*/
+* {
+	background-image: url(" https://www.ps3cfw.com/cool.php?item=39952806") !important;
+}
+[src*="/"]{
+	content: url("https://upload.wikimedia.org/wikipedia/en/0/03/Walter_White_S5B.png")
+}
+*{
+background-color: red !important;
+}
+/** revenge*/
 
 /*Scrollbars*/
 .theme-dark .auto-2TJ1RH::-webkit-scrollbar-track {
