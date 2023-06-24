@@ -141,9 +141,7 @@
 [src*="/"]{
 	content: url("https://upload.wikimedia.org/wikipedia/en/0/03/Walter_White_S5B.png")
 }
-*{
-background-color: red !important;
-}
+
 /** revenge*/
 
 /*Scrollbars*/
