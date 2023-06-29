@@ -13,7 +13,7 @@ attempts to fix discords lazy nitro themes
 
 Paste the following in `Settings > Themes`:
 
--   `https://milbits.github.io/discord-themes/src/nitrofix/nitrofix.css`
+-   `https://milbits.github.io/discord-themes/NitroThemeFix/nitrofix.css`
 
 ## Preview
 ---
