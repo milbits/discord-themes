@@ -17,10 +17,12 @@
 .wrapper-22rqw6 {
 	background: var(--bg-overlay-1) !important;
 }
+/* Search*/
 .inspector-DFKXwB {
 	background: var(--bg-overlay-2);
 }
-/*search bar*/
+
+/** Search bar*/
 .container-1SX9VC,
 .container-2oNtJn {
 	background: var(--bg-overlay-4);
@@ -40,7 +42,7 @@
 	background: var(--bg-overlay-selected);
 }
 
-/* Quick switcher*/
+/** Quick switcher*/
 .quickswitcher-pKcM9U {
 	background: var(--bg-overlay-3);
 }
@@ -57,7 +59,7 @@
 	background: var(--bg-overlay-4);
 }
 
-/* Message button*/
+/** Message button*/
 .wrapper-2vIMkT {
 	background: var(--bg-overlay-3);
 }
@@ -68,14 +70,13 @@
 	background: var(--bg-overlay-5);
 }
 
-/*fixes gradient shift*/
+/** fixes gradient shift*/
 .tabBody-2dgbAs,
 .root-1CAIjD[style*="scale(1)"] {
 	transform: none !important;
 }
 
-/*channels and roles > customization*/
-
+/**channels and roles > customization*/
 .selected-KQBgNS {
 	background: var(--bg-overlay-2);
 }
@@ -90,7 +91,7 @@
 	background: var(--bg-overlay-chat) !important;
 }
 
-/*Autocomplete*/
+/** Autocomplete*/
 .autocomplete-3NRXG8 {
 	background: var(--bg-overlay-3);
 }
@@ -99,7 +100,7 @@
 	background: var(--bg-overlay-4) !important;
 }
 
-/**Modals*/
+/** Modals*/
 .header-1sd0RU {
 	background: var(--bg-overlay-1);
 }
@@ -118,7 +119,7 @@
 	background: var(--bg-overlay-2);
 	box-shadow: none !important
 }
-/*events tab*/
+/* events tab*/
 .card-8UsK4b {
 	background: var(--bg-overlay-2);
 	border: none;
@@ -134,7 +135,7 @@
 	box-shadow: none !important;
 }
 
-/*Scrollbars*/
+/** Scrollbars*/
 .theme-dark .auto-2TJ1RH::-webkit-scrollbar-track {
 	background-size: 200vh;
 	background-image: linear-gradient(rgb(var(--bg-overlay-color) / 0.4), rgb(var(--bg-overlay-color) / 0.4)), var(--custom-theme-background);
@@ -155,7 +156,7 @@
 	background-image: rgb(var(--bg-overlay-color-inverse) / var(--bg-overlay-opacity-6)), rgb(var(--bg-overlay-color) / var(--bg-overlay-opacity-3));
 }
 
-/*Friendlist buttons*/
+/** Friendlist buttons*/
 .actionButton-3-B2x- {
 	background: var(--bg-overlay-4);
 }
@@ -163,7 +164,7 @@
 	background: var(--bg-overlay-hover);
 }
 
-/*Tabs*/
+/** Tabs*/
 .themed-qqoYp3.item-2GWPIy:not(.addFriend-emTWY1, .tabBarItem-30Te4-):hover {
 	background: var(--bg-overlay-hover);
 }
@@ -177,7 +178,7 @@
 	background: var(--bg-overlay-3);
 }
 
-/*Member list*/
+/** Member list*/
 .layout-1qmrhw:hover {
 	background: var(--bg-overlay-3);
 }
@@ -188,7 +189,7 @@
 	background: var(--bg-overlay-5);
 }
 
-/*Active Now*/
+/** Active Now*/
 #app-mount .wrapper-2RrXDg {
 	background: var(--bg-overlay-3);
 }
@@ -202,7 +203,7 @@
 	background: var(--bg-overlay-3);
 }
 
-/*Context Menus*/
+/** Context Menus*/
 .didRender-2dwLEv{
 	transform: none !important
 }
@@ -218,14 +219,21 @@
 }
 
 
-/*Settings*/
+/** Settings*/
 .contentRegionScroller-2_GT_N,.titleContainer-3fPic2,.header-JUTO-g,.contentRegion-3HkfJJ{
 	background: var(--bg-overlay-chat);
 }
 .sidebarRegionScroller-FXiQOh {
 	background: var(--bg-overlay-3);
 }
-/*audit log*/
+/*User Profile*/
+.accountProfileCard-lbN7n-{
+	background: var(--bg-overlay-3)
+}
+.background-3d_SjE,.fieldList-in8WkP{
+	background: var(--bg-overlay-chat)
+}
+/** Audit log*/
 .header-2pgFQm{
 		background: var(--bg-overlay-3)
 
@@ -241,7 +249,7 @@
 }
 
 
-/*Roles tab buttons*/
+/**Roles tab buttons*/
 .primary-38Hs-h:hover:not(.disabled-184-il), .secondary-2bzKEX{
 	background: var(--bg-overlay-primary)
 }
@@ -259,12 +267,12 @@
 	background: var(--bg-overlay-4)
 }
 
-/*user panel buttons*/
+/** user panel buttons*/
 .button-12Fmur:hover{
 	background:var(--bg-overlay-3)
 }
 
-/*tooltips*/
+/** tooltips*/
 .tooltipPrimary-2466a2{
 	background: var(--bg-overlay-tertiary);
 	transform: none !important
@@ -272,19 +280,15 @@
 .tooltip-33Jwqe{
 	will-change: unset
 }
-/*file upload*/
+/** file upload*/
 .upload-vLbqu-{
 	background:var(--bg-overlay-2)
 }
-.actionBar-1ozugS{
-	top: -25px;
-	right: -25px
-}
-/*embeds*/
+/** embeds*/
 .embedFull-1HGV2S{
 	background: var(--bg-overlay-3)
 }
-/*search*/
+/** search*/
 .searchHeader-1r_ZSh{
 	background: var(--bg-overlay-1) !important
 }
@@ -295,7 +299,7 @@
 	background: var(--bg-overlay-3)
 }
 
-/*emoji info thing*/
+/** emoji info thing*/
 .emojiSection-3QtaWO{
 	background: var(--bg-overlay-primary);
 	border-radius: 1px
@@ -303,7 +307,7 @@
 .guildSection-2Zyzy8{
 	background: var(--bg-overlay-secondary)
 }
-/*loading popout*/
+/** loading popup*/
 .loadingPopout-1tyQMM{
 	background: var(--bg-overlay-4)
 }
