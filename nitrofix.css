@@ -189,12 +189,14 @@
 }
 
 /*Active Now*/
-.wrapper-2RrXDg {
+#app-mount .wrapper-2RrXDg {
 	background: var(--bg-overlay-3);
-	border: none;
 }
-.wrapper-2RrXDg:hover {
-	background: var(--bg-overlay-1);
+.section-3G9aLW{
+	background: var(--bg-overlay-chat)
+}
+#app-mount .wrapper-2RrXDg:hover {
+	background: var(--bg-overlay-tertiary);
 }
 .emptyCard-KDifrB {
 	background: var(--bg-overlay-3);
@@ -306,4 +308,24 @@
 	background: var(--bg-overlay-4)
 }
 
+/** [Experimental] match the brightness with the default gray theme
+ with: https://cdn.discordapp.com/attachments/1101660240728043601/1124012965390196817/image.png
+ without: https://cdn.discordapp.com/attachments/1101660240728043601/1124013127126749275/image.png */
 
+/*
+:root {
+	--bg-overlay-chat: var(--bg-overlay-primary);
+	--bg-overlay-app-frame: var(--bg-overlay-1)
+}
+
+:root .themed-Hp1KC_ {
+	background: var(--bg-overlay-chat)
+}
+
+.scrollableContainer-15eg7h {
+	background: var(--bg-overlay-4)
+}
+.searchBar-jGtisZ{
+	background: var(--bg-overlay-2);
+}
+*/
