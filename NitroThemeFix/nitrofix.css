@@ -21,6 +21,24 @@
 .inspector-DFKXwB {
 	background: var(--bg-overlay-2);
 }
+.searchFilter-2UfsDk,.searchAnswer-23w-CH{
+	background: var(--bg-overlay-5)
+}
+/*Search Popup*/
+.container-2McqkF{
+	background: var(--bg-overlay-1);
+	box-shadow: var(--dark-elevation-high) !important
+}
+.option-ayUoaq:hover{
+	background: var(--bg-overlay-3)
+}
+.option-ayUoaq:after{
+	display: none
+}
+/*Jump Button*/
+.button-cfOvv-{
+	background: var(--bg-overlay-2)
+}
 
 /** Search bar*/
 .container-1SX9VC,
@@ -119,6 +137,26 @@
 	background: var(--bg-overlay-2);
 	box-shadow: none !important
 }
+
+/* Reactions Modal*/
+
+/*reactor list*/
+.reactors-1VXca7{
+	 background: var(--bg-overlay-3)
+ }
+/*reaction list*/
+.scroller-2GkvCq{
+	background: var(--bg-overlay-chat)
+}
+/*reaction tab thing*/
+.reactionDefault-1Sjj1f:hover{
+	background: var(--bg-overlay-3)
+}
+.reactionSelected-1aMb2K{
+	background: var(--bg-overlay-4)
+}
+
+
 /* events tab*/
 .card-8UsK4b {
 	background: var(--bg-overlay-2);
@@ -174,7 +212,7 @@
 .themed-qqoYp3.selected-1sf9UK.item-2GWPIy:not(.addFriend-emTWY1, .tabBarItem-30Te4-) {
 	background: var(--bg-overlay-selected);
 }
-.peopleListItem-u6dGxF:hover {
+.peopleListItem-u6dGxF:is(:hover,.active-2UF8Zh) {
 	background: var(--bg-overlay-3);
 }
 
@@ -183,10 +221,10 @@
 	background: var(--bg-overlay-3);
 }
 .layout-1qmrhw:active {
-	background: var(--bg-overlay-4);
+	background: var(--bg-overlay-primary);
 }
 .selected-1-Z6gm .layout-1qmrhw {
-	background: var(--bg-overlay-5);
+	background: var(--bg-overlay-4);
 }
 
 /** Active Now*/
@@ -311,6 +349,23 @@
 .loadingPopout-1tyQMM{
 	background: var(--bg-overlay-4)
 }
+
+/** Give Role in user popout*/
+.container-2kTWmC{
+	background: var(--bg-overlay-3);
+	border: none
+}
+.item-1Mjtru:hover:not(.disabled-Lzz-qs){
+	background: var(--bg-overlay-4)
+}
+
+/** Code blocks*/
+.markup-eYLPri :is(code.inline,code){
+	background: var(--bg-overlay-4);
+	border: none
+}
+
+
 
 /** [Experimental] match the brightness with the default gray theme
  with: https://cdn.discordapp.com/attachments/1101660240728043601/1124012965390196817/image.png
